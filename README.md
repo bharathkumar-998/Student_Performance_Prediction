@@ -68,7 +68,7 @@ The logistic regression model performs well in identifying students at risk, bas
 
 1. Clone the repo:
 ```bash
-git clone https://github.com/bharathkumar-998/Student_Performance_Prediction.git
+git clone https://github.com/bharathkumar-998/Student_Performance_Prediction/blob/main/README.md
 cd Student_Performance_Prediction
 Launch Jupyter Notebook:
 jupyter notebook Student_Performance_Prediction.ipynb
