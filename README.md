@@ -1,41 +1,53 @@
 # 🎓 Student Performance Prediction
 
-This project involves analyzing and predicting student performance using a dataset containing academic and demographic factors. It uses data visualization and a machine learning model to predict whether a student will pass.
+This project aims to predict whether a student will pass or fail based on their scores using machine learning techniques, specifically logistic regression.
 
 ---
 
-## 🚀 Features
+## 📌 Project Overview
 
-- Data Cleaning & Preprocessing
-- Exploratory Data Analysis (EDA)
-- Logistic Regression Model
-- Accuracy Evaluation
+In this project, we:
 
----
-
-## 📂 Dataset
-
-The dataset contains information about:
-- Study hours
-- Sleep hours
-- Attendance
-- Pass (Yes/No)
+- Cleaned and prepared student academic data.
+- Calculated the average score from various subjects.
+- Created a binary classification target (pass/fail).
+- Trained a Logistic Regression model.
+- Evaluated model performance using accuracy metrics.
 
 ---
 
-## 🛠️ Tech Stack
+## 📁 File Structure
 
-- Python
+- `Student_Performance_Prediction.ipynb` - Main Jupyter Notebook with all the code.
+- `student_performance.csv` - Dataset used for model training and evaluation.
+- `README.md` - Project documentation.
+
+---
+
+## 📊 Tech Stack
+
+- Python 🐍
 - Pandas
-- Matplotlib / Seaborn
+- NumPy
+- Matplotlib & Seaborn
 - Scikit-learn
 - Jupyter Notebook
 
 ---
 
-## 📘 Project File
+## 🚀 How to Run
 
-👉 [Click here to view the Notebook](Student_Performance_prediction.ipynb)
+1. Clone the repository or download the files.
+2. Open `Student_Performance_Prediction.ipynb` in Jupyter Notebook.
+3. Run all the cells to explore the dataset and model.
+
+---
+
+## 📎 Links
+
+- 👉 [Click here to view the Notebook](./Student_Performance_Prediction.ipynb)
+- 🔗 [GitHub Profile](https://github.com/bharathkumar-998)
+- 🔗 [LinkedIn Profile](https://www.linkedin.com/in/bharath-kumar-yandrapu-05a8b0356?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
 
 ---
 
@@ -43,7 +55,9 @@ The dataset contains information about:
 
 **Bharath Kumar Yandrapu**  
 BTech 3rd Year - Data Science Student  
-📍 India
+Passionate about Machine Learning & Data Analytics  
+📧 Reach out on [LinkedIn](https://www.linkedin.com/in/bharath-kumar-yandrapu-05a8b0356)
 
-- 🔗 [GitHub Profile](https://github.com/bharathkumar-998)  
-- 💼 [LinkedIn Profile](https://www.linkedin.com/in/bharath-kumar-yandrapu-05a8b0356)
+---
+
+⭐ If you like this project, don't forget to give it a star!
