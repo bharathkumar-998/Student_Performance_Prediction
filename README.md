@@ -1,49 +1,65 @@
-# 🎓 Student Performance Prediction
+# 🎓 Student Performance Analysis & Prediction
 
-This project involves analyzing and predicting student performance using a dataset containing academic and demographic factors. It uses data visualization and a machine learning model to predict whether a student will pass.
+Welcome to my data science project where I explore and analyze student performance data to build a machine learning model that predicts whether a student will pass based on their academic and demographic factors.
+## 📁 Project Structure
+C:/Users/bhara/Student_Performance_Prediction/ 
+│├── Student_Performance_Prediction.ipynb # Main Jupyter Notebook 
+├── student_performance.csv # Dataset └── README.md 
 
----
+# Project Overview
+## 📊 Objective
+This project aims to:
+- Perform Exploratory Data Analysis (EDA) on student performance
+- Engineer a new feature `average_score`
+- Build a classification model to predict whether a student will **pass (score ≥ 60)** or **fail**
+- Visualize key trends based on gender, test preparation, and more
 
-## 🚀 Features
+## 🧠 About the Dataset
+Each row in the dataset represents a student and includes:
 
-- Data Cleaning & Preprocessing
-- Exploratory Data Analysis (EDA)
-- Logistic Regression Model
-- Accuracy Evaluation
+- **gender**
+- **race/ethnicity**
+- **parental level of education**
+- **lunch**
+- **test preparation course**
+- **math score**
+- **reading score**
+- **writing score**
 
----
+## 📌 Key Steps
+1. 📥 Load and clean the dataset
+2. 🛠 Feature Engineering (`average_score`, `pass`)
+3. 📊 Visualize insights using Seaborn & Matplotlib
+4. ⚙️ One-hot encode categorical features
+5. 🤖 Build Logistic Regression model
+6. 🧪 Evaluate performance with Accuracy & Classification Report
 
-## 📂 Dataset
-
-The dataset is manually created and contains details like:
-
-- Study hours
-- Sleep hours
-- Attendance
-- Pass (Yes/No)
-
----
-
-## 🛠️ Tech Stack
-
+## 🚀 Tools & Libraries Used
 - Python
 - Pandas
-- Matplotlib / Seaborn
+- NumPy
+- Matplotlib
+- Seaborn
 - Scikit-learn
-- Jupyter Notebook
 
----
+## 📈 Results
+The logistic regression model performs well in identifying students at risk, based on test scores and preparation. Accuracy and classification metrics provide insight into model performance.
 
-## 👨‍💻 Author
+## 🧪 How to Run This Project
+1. Clone the repo:
+```bash
+git clone https://github.com/bharathkumar-998/Student_Performance_Prediction.git
+cd Student_Performance_Prediction
+Open Jupyter Notebook and run:
+jupyter notebook Student_Performance_Prediction.ipynb
 
-**Bharath Kumar Yandrapu**  
+👨‍💻 Author
+Bharath Kumar Yandrapu
 BTech 3rd Year - Data Science Student
+📍 India
+[GitHub Profile](https://github.com/bharathkumar-998)
+[LinkedIn Profile](https://www.linkedin.com/in/bharath-kumar-yandrapu-05a8b0356)
 
-- 🔗 [GitHub Profile](https://github.com/bharathkumar-998)  
-- 💼 [LinkedIn Profile](https://www.linkedin.com/in/bharath-kumar-yandrapu-05a8b0356)
 
----
 
-## 📘 Project File
 
-- 👉 [Click here to view the Notebook](Student_Performance_prediction.ipynb)
